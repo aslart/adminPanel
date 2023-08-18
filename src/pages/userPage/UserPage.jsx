@@ -1,3 +1,4 @@
+import { PermIdentity } from '@mui/icons-material';
 import './userpage.css';
 
 export default function UserPage() {
@@ -22,6 +23,18 @@ export default function UserPage() {
           </div>
           <div className="userShowBottom">
             <span className="userShowTitle">Account Details</span>
+            <div className="userShowInfo">
+              <PermIdentity />
+              <span className="userShowInfoTitle">annabeck</span>
+            </div>
+            <div className="userShowInfo">
+              <PermIdentity />
+              <span className="userShowInfoTitle">annabeck</span>
+            </div>
+            <div className="userShowInfo">
+              <PermIdentity />
+              <span className="userShowInfoTitle">annabeck</span>
+            </div>
           </div>
         </div>
         <div className="userUpdate"></div>

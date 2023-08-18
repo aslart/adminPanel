@@ -63,3 +63,11 @@
   font-weight: 300;
   color: grey;
 }
+.userShowBottom {
+  display: flex;
+  flex-direction: column;
+}
+.userShowInfo {
+  display: flex;
+  align-items: center;
+}
