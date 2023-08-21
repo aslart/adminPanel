@@ -5,6 +5,7 @@ import Home from './pages/home/Home';
 import { BrowserRouter, Routes, Route, Layout } from 'react-router-dom';
 import UserList from './pages/userList/UserList';
 import UserPage from './pages/userPage/UserPage';
+import NewUser from './pages/newUser/NewUser';
 
 function App() {
   return (
@@ -25,6 +26,10 @@ function App() {
             <Route
               path="/users/:userId"
               element={<UserPage />}
+            />
+            <Route
+              path="/newuser"
+              element={<NewUser />}
             />
           </Routes>
         </div>
