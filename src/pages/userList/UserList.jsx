@@ -48,11 +48,11 @@ export default function UserList() {
         return (
           <>
             <Link to={'/users/' + params.row.id}>
-              <button className="userListEdit">Edit</button>
+              <button className="ListEdit">Edit</button>
             </Link>
 
             <DeleteOutlineIcon
-              className="userListRemove"
+              className="ListRemove"
               onClick={() => handleDelete(params.row.id)}
             />
           </>

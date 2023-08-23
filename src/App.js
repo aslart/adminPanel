@@ -6,6 +6,9 @@ import { BrowserRouter, Routes, Route, Layout } from 'react-router-dom';
 import UserList from './pages/userList/UserList';
 import UserPage from './pages/userPage/UserPage';
 import NewUser from './pages/newUser/NewUser';
+import ProductList from './pages/productList/ProductList';
+import Product from './pages/product/Product';
+import NewProduct from './pages/newProduct/NewProduct';
 
 function App() {
   return (
@@ -15,22 +18,13 @@ function App() {
         <Sidebar />
         <div className="content">
           <Routes>
-            <Route
-              index
-              element={<Home />}
-            />
-            <Route
-              path="/users"
-              element={<UserList />}
-            />
-            <Route
-              path="/users/:userId"
-              element={<UserPage />}
-            />
-            <Route
-              path="/newuser"
-              element={<NewUser />}
-            />
+            <Route index element={<Home />} />
+            <Route path="/users" element={<UserList />} />
+            <Route path="/users/:userId" element={<UserPage />} />
+            <Route path="/newuser" element={<NewUser />} />
+            <Route path="/products" element={<ProductList />} />
+            <Route path="/product/:productId" element={<Product />} />
+            <Route path="/newproduct" element={<NewProduct />} />
           </Routes>
         </div>
       </div>

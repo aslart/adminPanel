@@ -6,7 +6,7 @@ export default function UserPage() {
   return (
     <div className="userPage">
       <div className="userTitleContainer">
-        <h1 className="userTitle">Edit user</h1>
+        <h1 className="Title">Edit user</h1>
         <Link to="/newuser">
           <button className="userAddBtn">Create</button>
         </Link>
