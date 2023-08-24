@@ -6,7 +6,7 @@
   top: 50px;
 }
 .sidebarWrapper {
-  padding: 20px;
+  padding: 40px;
 }
 .sidebarMenu {
   text-align: left;
@@ -14,25 +14,28 @@
 }
 .sidebarTitle {
   font-size: 16px;
-  color: grey;
+  color: #1074cd;
+  margin-bottom: 10px;
+  font-weight: 500;
 }
 .sidebarList {
   list-style: none;
   padding: 0px;
 }
 .sidebarListItem {
-  padding: 5px;
+  padding: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
   border-radius: 10px;
   font-size: 13px;
+  width: -webkit-fill-available;
 }
 .sidebarIcon {
-  margin-right: 5px;
+  margin-right: 10px;
   font-size: 20px !important;
 }
 .sidebarListItem:hover,
 .sidebarListItem.active {
-  background-color: lightgrey;
+  background-color: #daecf9;
 }
